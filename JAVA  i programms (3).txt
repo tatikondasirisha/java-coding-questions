@@ -1,0 +1,158 @@
+
+Given an array of integers nums and an integer target, write a function that returns the indices  of the two numbers such that they add up to target. 
+
+Write a function to sort an array of integers using the bubble sort algorithm. 
+
+Write a function that takes a string and a character as input and returns the count of the specified character in the string.                                                                   
+
+Write a function to reverse an array of integers. 
+
+Write a function to find the second largest element in an array of integers without using any inbuilt sorting functions. 
+
+Write a function that takes two strings as input and returns true if the strings are anagrams of each other, and false otherwise. 
+
+Write a function to find a specific element in an array of integers. The function should return the index of the element if found, otherwise, return -1. 
+
+Write a function to reverse a given string. 
+
+Write a function that takes a string as input and returns the length of the last word in the string.  
+
+Write a function to find the square root of a number without using any inbuilt square root functions. 
+
+Write a function that merges two sorted arrays into a single sorted array. 
+
+Write a function that takes an array of integers and returns an array of all the duplicate elements. 
+
+Write a function to multiply two matrices and return the resultant matrix. 
+
+Write a function that returns all prime numbers up to a given integer. 
+
+Write a function that checks if a given string containing parentheses is balanced. 
+
+Write a function that takes a string and returns the number of words in the string. 
+
+Write a function to find the transpose of a given matrix. 
+
+Write a function that takes an array of strings and returns the longest common prefix among them. 
+
+Implement a queue using stacks with methods to enqueue, dequeue, and check if the queue is empty. 
+
+Write a function that returns the intersection of two arrays as a new array. 
+
+Design a simple system for a zoo management application. The application needs to handle different types of animals with various behaviors. Some animals can fly, while others can swim. 
+
+##Requirements 
+
+There should be a base abstract class Animal with common properties and methods. 
+
+There should be specific subclasses for different animals (e.g., Dog, Eagle, Fish). 
+
+Define interfaces for Flyable and Swimmable behaviors. 
+
+Ensure that animals implementing these interfaces provide the behavior methods. 
+
+Define an abstract class Shape with an abstract method calculateArea(). Create two derived classes Circle and Rectangle that implement the calculateArea() method. Write a program to calculate and display the area of a circle and a rectangle.   
+
+Design and implement a shopping cart system. Include the following: 
+
+A Product class with attributes name, price, and productID. 
+
+A ShoppingCart class that contains a list of Product objects and methods to add, remove, and view products in the cart. 
+
+A User class with attributes username, password, and a ShoppingCart. 
+
+Implement methods to calculate the total price of the items in the cart. 
+
+Demonstrate the system by creating products, adding them to the user's shopping cart, viewing the cart contents, calculating the total price.    
+
+Create a banking system with the following classes: 
+
+BankAccount class with attributes accountNumber, balance, and ownerName. 
+
+Transaction class with attributes transactionID, amount, date, and type (e.g., deposit, withdrawal). 
+
+Methods to perform deposits and withdrawals, ensuring that the account balance does not go negative. 
+
+A method to print the transaction history for an account. 
+
+Design an Employee Management System with the following requirements: 
+
+An Employee class with attributes id, name, designation, salary, and department. 
+
+A Manager class that inherits from Employee and has a list of employees under them. 
+
+Implement methods to add and remove employees. 
+
+Write a method using StringBuilder to reverse a given string, replace all  vowels with the '*' character, and convert the string to uppercase. 
+
+Write a method using StringBuffer to take two strings, append them together, insert a space between them, and return the resulting string. 
+
+Write a regular expression to check if a given string is a valid email address. 
+
+Write a method that uses StringBuilder to remove all the duplicate characters in a given string. 
+
+Write a regular expression to extract all the numbers from a given string and return them as a list of integers. 
+
+Write a Java program to create an ArrayList of integers, add 10 random integers, and then remove all the even numbers from the list. 
+
+Create a method that takes an ArrayList<String> and returns a Set<String> containing all the unique strings in the list. Demonstrate this method with an example. 
+
+Write a Java program to sort an ArrayList<String> in reverse alphabetical order using a custom Comparator. Implement the Comparator and demonstrate it with a sample list. 
+
+Implement a method that takes two ArrayList<Integer> objects and returns a Map<Integer, Integer> where each key is an integer from the first list and the value is its frequency of occurrence in the second list. 
+
+Write a Java program to merge two HashSet<Integer> objects and return the result as an ArrayList<Integer> sorted in ascending order.  
+
+Implement a custom Comparator for a TreeMap<Integer, String> that sorts the keys in descending order. Demonstrate adding some key-value pairs and display the sorted map. 
+
+Create a method that takes a List<String> and returns a Map<Character, Set<String>> where each key is a character and the value is a set of strings that start with that character. 
+
+Write a Java program to create an ArrayList<Integer>, add 20 random integers, and then find the top 5 maximum values using a TreeSet and a custom Comparator. 
+
+Implement a method that takes an ArrayList<String> and a String as input and returns a Map<String, Integer> where each key is a string from the list and the value is the number of times the input string appears as a substring in that string. 
+
+Write a Java program to create a Map<String, Integer> from an ArrayList<String> where each key is a unique string from the list and the value is its length. Sort the entries of the map by values (string lengths) using a custom Comparator and display the sorted map.
+
+ Design a simple system for a zoo management application. The application needs to handle different types of animals with various behaviors. Some animals can fly, while others can swim.
+
+##Requirements
+1.There should be a base abstract class Animal with common properties and methods.
+2.There should be specific subclasses for different animals (e.g., Dog, Eagle, Fish).
+3.Define interfaces for Flyable and Swimmable behaviors.
+4.Ensure that animals implementing these interfaces provide the behavior methods.
+Define an abstract class Shape with an abstract method calculateArea(). Create two derived classes Circle and Rectangle that implement the calculateArea() method. Write a program to calculate and display the area of a circle and a rectangle.
+
+Design and implement a shopping cart system. Include the following:
+A Product class with attributes name, price, and productID.
+A ShoppingCart class that contains a list of Product objects and methods to add, remove, and view products in the cart.
+A User class with attributes username, password, and a ShoppingCart.
+Implement methods to calculate the total price of the items in the cart.
+Demonstrate the system by creating products, adding them to the user's shopping cart, viewing the cart contents, calculating the total price. 
+
+
+ Create a banking system with the following classes:
+BankAccount class with attributes accountNumber, balance, and ownerName.
+Transaction class with attributes transactionID, amount, date, and type (e.g., deposit, withdrawal).
+Methods to perform deposits and withdrawals, ensuring that the account balance does not go negative.
+A method to print the transaction history for an account.
+
+
+Question 5 : Design an Employee Management System with the following requirements:
+An Employee class with attributes id, name, designation, salary, and department.
+A Manager class that inherits from Employee and has a list of employees under them.
+Implement methods to add and remove employees.
+  
+Duplicate Characters = "programming"
+
+swaps rows with columns
+ 
+2)String[][] array = {
+	{"John", "Doe"},
+	{"Jane", "Smith"},
+	{"Emily", "Davis"}
+};
+ 
+John Jane Emily 
+Doe Smith Davis
+
+InfixTopostfix.
